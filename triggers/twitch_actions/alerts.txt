@@ -1,29 +1,29 @@
 OnSETwitchBits
-Play 100 nowait dv_follower.mp3
+Play 70 nowait dv_follower.mp3
 SendCamAlert
 
 OnSETwitchBulkGiftSub
-Play 100 nowait dv_follower.mp3
+Play 70 nowait dv_follower.mp3
 SendCamAlert
 # Chat Send "\> {user} just gifted {amount} subs! LEGEND! drvipeBoombox drvipeCassette"
 
 
 OnSEDonation
-Play 100 nowait dv_follower.mp3
+Play 70 nowait dv_follower.mp3
 SendCamAlert
 
 OnSETwitchFollow
-Play 100 nowait we_got_one.mp3
+Play 70 nowait we_got_one.mp3
 Chat Send "\> Thanks for the follow {user}! PogChamp"
 SendCamAlert
 
 OnSETwitchGiftSub
-Play 100 nowait dv_follower.mp3
-Chat Send "\> {user} just gifted {amount} subs! LEGEND! drvipeBoombox drvipeCassette"
+Play 70 nowait dv_follower.mp3
+# Chat Send "\> {user} just gifted {amount} subs! LEGEND! drvipeBoombox drvipeCassette"
 SendCamAlert
 
 OnSETwitchRaid
-Play 100 wait dv_raid.mp3
+Play 70 wait dv_raid.mp3
 Chat Send "\> VIPER_RAID_ALERT( )"
 Delay 1
 Chat Send "\> https://twitch.tv/{user}"
@@ -33,7 +33,7 @@ Chat Send "\> [ - {api_data} - ]"
 SendCamAlert
 
 OnSETwitchSub
-Play 100 nowait dv_follower.mp3
+Play 70 nowait dv_follower.mp3
 If 1 {amount} = 1
   Chat Send "\> {user} just subscribed drvipeCassette"
 If 1 {amount} > 1

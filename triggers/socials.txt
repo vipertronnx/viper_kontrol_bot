@@ -1,6 +1,6 @@
 OnCommand e 0 !fc !friendcode !switch !nintendo
 Play 100 nowait kitt_scanner.mp3
-Chat Send "\> FRIEND_CODE( );"
+Chat Send "\> SWITCH_CODE( );"
 Chat Send "\> 4011-2671-4737"
 
 OnCommand e 0 !steam
@@ -18,11 +18,11 @@ OnCommand e 0 !social !socials
 Play 100 nowait kitt_scanner.mp3
 Chat Send "\> SOCIAL_LINKS( );"
 Chat Send "\> Discord - http://discord.viperverse.tv"
-Chat Send "\> Twitter - https://twitter.com/the_dr_viper"
+# Chat Send "\> Twitter - https://twitter.com/the_dr_viper"
 Chat Send "\> Instagram - https://www.instagram.com/doctor.viper"
-Chat Send "\> YouTube - https://bit.ly/dr_viper_youtube"
-Chat Send "\> Steam - https://bit.ly/dr_viper_steam"
+# Chat Send "\> YouTube - https://bit.ly/dr_viper_youtube"
+# Chat Send "\> Steam - https://bit.ly/dr_viper_steam"
 
 OnCommand e 0 !lurk
-Play 100 nowait dv_lurk_message.mp3
+Play 70 nowait dv_lurk_message.mp3
 Chat Send "\> LURK( {user}  );"

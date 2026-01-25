@@ -6,7 +6,7 @@ Play 100 nowait kitt_scanner.mp3
 SendCamAlert
 
 OnChannelPoint "HYDRATION SATURATION" "HAT // REVERSAL" "VIPER // CAM" "GUIDE // RAID" "CIGAR" "CHOOSE A GAME" "VOICE CHANGER"
-Play 100 nowait Accensione.mp3
+Play 70 nowait Accensione.mp3
 Chat Send "\> {reward} ( {user} )"
 SendCamAlert
 
@@ -56,15 +56,10 @@ Chat Send "\> GET DOWN!"
 SendCamAlert
 
 OnChannelPoint "TERMINATOR VISION"
-SendCamAlert
-Play 60 nowait t2_theme.mp3
-SendTextAlertNoDelay "T A R G E T - A C Q U I R E D"
-OBS Scene "FRONT CAM"
-Delay 6
-Play 25 nowait terminator_overlay.mp3
-Chat Send "\> {reward} ( {user} )"
-SendTerminator
-SendCamAlert
+TerminatorVision
+
+OnCommand b 0 !terminator
+TerminatorVision
 
 OnChannelPoint "SFX // GROOVY"
 Play 100 nowait groovy.mp3

@@ -21,6 +21,7 @@ twitch_actions/viper_utils.txt
 
 # Kruiz Control Actions
 actions/getSounds.txt
+actions/terminator.txt
 
 # Sounds
 sounds/random.txt

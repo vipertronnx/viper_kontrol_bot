@@ -1,8 +1,8 @@
 OnCommand e 60 !commands !cmds
 Play 100 nowait kitt_scanner.mp3
 Chat Send "\> - - - - - - - - -"
-Chat Send "\> !8ball"
-Chat Send "\> !points"
-Chat Send "\> !top points/alltime"
-Chat Send "\> !switch"
+# Chat Send "\> !8ball"
+# Chat Send "\> !points"
+# Chat Send "\> !top points/alltime"
 Chat Send "\> !steam"
+Chat Send "\> !switch"
