@@ -3,7 +3,7 @@ GetSoundList
 Chat Send "\> VipOS_MK3: INITIALIZING ..."
 Delay 0.5
 Play 100 nowait welcome_back.mp3
-Chat Send "\> WELCOME BACK, CMMDR"
+Chat Send "\> WELCOME BACK, COMMANDER"
 SendCamAlert
 SendTextAlert "Welcome back, Commander"
 

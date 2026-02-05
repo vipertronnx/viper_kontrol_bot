@@ -5,6 +5,5 @@ SendTextAlertNoDelay "T A R G E T - A C Q U I R E D"
 OBS Scene "FRONT CAM"
 Delay 6
 Play 25 nowait terminator_overlay.mp3
-Chat Send "\> {reward} ( {user} )"
 SendTerminator
 SendCamAlert
