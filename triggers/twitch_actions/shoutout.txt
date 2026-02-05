@@ -1,5 +1,5 @@
 OnCommand bvms 0 !so !sh !caster !shout
-Function 'var user = [after].trim().replace("@",""); if(user.toLowerCase() == "wanker") { user = "madrush35" } if (user.toLowerCase() == "dr_viper") { user = [user]; } return { data: user, user: [user] };'
+Function 'var user = [after].trim().replace("@",""); if(user.toLowerCase() == "wanker") { user = "madrush35" } if (user.toLowerCase() == "vipertronnx") { user = [user]; } return { data: user, user: [user] };'
 API GET https://decapi.me/twitch/game/{data}
 Play 100 nowait dv_shout_out_alert.mp3
 If 1 {data} != "madrush35" 

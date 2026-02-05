@@ -14,7 +14,7 @@ Chat Send "/followersoff"
 Chat Send "\> DANGER_ZONE( FALSE )"
 
 OnCommand bmv 0 !doctor !dr !doc
-Chat Send "/me @dr_viper SOMEBODY GET ME A DOCTOR"
+Chat Send "/me @vipertronnx SOMEBODY GET ME A DOCTOR"
 Play 100 nowait doctor.mp3
 SendCamAlert
 SendTextAlert "SOMEBODY GET ME A DOCTOR!"

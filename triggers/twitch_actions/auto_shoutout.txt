@@ -5,7 +5,7 @@ Function "var data = [data]; var vipStatus = data.flags.vip ? data.flags.vip : f
 Function "var data = [data]; var subscriberStatus = data.flags.subscriber ? data.flags.subscriber : false; return { isSubscriber: subscriberStatus };"
 # ARE THEY A MOD?
 Function "var data = [data]; var modStatus = data.flags.mod ? data.flags.mod : false; return { isMod: modStatus };"
-Function "return { continue: ( ('{user}' != 'dr_viper') && ('{user}' != 'VipOS_MK3') ) && ( {isSubscriber} || {isVip} || {isMod} ) };"
+Function "return { continue: ( ('{user}' != 'vipertronnx') && ('{user}' != 'VipOS_MK3') ) && ( {isSubscriber} || {isVip} || {isMod} ) };"
 API GET https://decapi.me/twitch/game/{user}
 Play 100 nowait dv_shout_out_alert.mp3
 List Get Greetings
